@@ -73,7 +73,7 @@ body {
   border-color: var(--matri-dark-amarillo) !important;
 }
 
-#save_the_date {
+.img_border {
   border: 0.5px solid #e8e8e8;
 }
 
