@@ -68,6 +68,11 @@ body {
   background-color: #FFFFFF;
 }
 
+
+.border-matri-dark-amarillo {
+  border-color: var(--matri-dark-amarillo) !important;
+}
+
 #save_the_date {
   border: 0.5px solid #e8e8e8;
 }
@@ -6251,6 +6256,10 @@ button.bg-dark:focus {
   border-color: #ffc107 !important;
 }
 
+.border-matri-dark-amarillo {
+  border-color: var(--matri-dark-amarillo) !important;  
+}
+
 .border-danger {
   border-color: #dc3545 !important;
 }
@@ -9548,7 +9557,8 @@ a.text-dark:hover, a.text-dark:focus {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(92, 110, 108, 0.6);
+  /* jairo */
   z-index: 1;
 }
 
