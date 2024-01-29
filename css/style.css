@@ -9539,7 +9539,7 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 25px 10px;
   color: #FFFFFF;
   letter-spacing: 1px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 600;
   outline: none;
 }
