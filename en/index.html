@@ -608,7 +608,7 @@
     
                 // Disable the submit button to prevent multiple submissions
                 submitButton.disabled = true;
-                submitButton.textContent = "Enviando respuesta...";
+                submitButton.textContent = "Sending response...";
     
                 const data = new FormData(form);
                 const action = e.target.action;
@@ -618,16 +618,16 @@
                     body: data,
                 })
                 .then(() => {
-                    alert("Respuesta guardada");
+                    alert("Response saved");
                     form.reset();
                 })
                 .catch(error => {
-                    alert("Se presentó un error");
+                    alert("An error occurred");
                 })
                 .finally(() => {
                     // Re-enable the submit button after the request is complete (success or failure)
                     submitButton.disabled = false;
-                    submitButton.textContent = "Enviar";
+                    submitButton.textContent = "Send";
                 });                
             });
         });
