@@ -6243,6 +6243,12 @@ button.bg-dark:focus {
   border-color: var(--matri-amarillo) !important;
 }
 
+@media (max-width: 768px) {
+  .border-primary {
+      border: none !important;
+  }
+}
+
 .border-secondary {
   border-color: #EDF5F7 !important;
 }
