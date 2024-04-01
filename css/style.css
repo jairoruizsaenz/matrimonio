@@ -34,8 +34,13 @@
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: "Montserrat", sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  
   --matri-verde: #5C6E6C;
-  --matri-amarillo: #D2A96A;
+  --matri-verde-light: #EDF5F7;
+  
+  
+  --matri-amarillo: #D2A96A;  
+  --matri-amarillo-light: #fff9f0;
   --matri-dark-amarillo: #b7945e;
   --matri-dark-amarillo_2: #a78655;
 }
@@ -68,6 +73,13 @@ body {
   background-color: #FFFFFF;
 }
 
+.background-matri-amarillo-light {
+  background-color: var(--matri-amarillo-light);
+}
+
+.background-matri-verde-light {
+  background-color: var(--matri-verde-light);
+}
 
 .border-matri-dark-amarillo {
   border-color: var(--matri-dark-amarillo) !important;
