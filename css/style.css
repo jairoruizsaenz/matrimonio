@@ -78,8 +78,8 @@ body {
 }
 
 .section {
-  padding-top: 0;
-  padding-bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .section:nth-child(4n+1), .section:nth-child(4n+3) {
