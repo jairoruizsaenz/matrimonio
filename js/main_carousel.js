@@ -16,10 +16,10 @@
 		$('.featured-carousel').owlCarousel({
 	    loop: true,
 	    autoplay: true,
-	    margin:30,
+	    margin:25,
 	    animateOut: 'fadeOut',
 	    animateIn: 'fadeIn',
-	    nav:true,
+	    nav:false,
 	    dots: true,
 	    autoplayHoverPause: false,
 	    items: 1,

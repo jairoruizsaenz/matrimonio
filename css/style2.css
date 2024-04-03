@@ -8260,6 +8260,12 @@ h1, h2, h3, h4, h5,
     right: 0;
 }
 
+@media only screen and (max-width: 600px) {
+  .owl-dot, .owl-prev, .owl-next {
+      display: none;
+  }
+}
+
 .owl-carousel .owl-dots {
     text-align: left;
     margin-top: 10px;
@@ -8309,4 +8315,5 @@ h1, h2, h3, h4, h5,
     background-color: white;
     margin-left: 15px;
     padding: 0 5px;
+    opacity: 0;
 }
