@@ -29,6 +29,9 @@
     <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="../lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
+    <!-- Swiper CSS -->
+    <link href="../css/swiper-bundle.min.css" rel="stylesheet">
+    
     <!-- Customized Bootstrap Stylesheet -->
     <link href="../css/style.css" rel="stylesheet">
 
@@ -50,17 +53,28 @@
         </button>
         <div class="pb-2 collapse navbar-collapse justify-content-between" id="navbarCollapse">
             <div class="navbar-nav ml-auto py-0">
-                <a href="#when" class="nav-item nav-link">When</a>
-                <a href="#where" class="nav-item nav-link">Where</a>
-                <a href="#rsvp" class="nav-item nav-link">RSVP</a>
+                <a href="#when" class="nav-item nav-link hide_show_navbar d-lg-none">When</a>
+                <a href="#when" class="nav-item nav-link d-none d-lg-block">When</a>
+
+                <a href="#where" class="nav-item nav-link hide_show_navbar d-lg-none">Where</a>
+                <a href="#where" class="nav-item nav-link d-none d-lg-block">Where</a>
+
+                <a href="#rsvp" class="nav-item nav-link hide_show_navbar d-lg-none">RSVP</a>
+                <a href="#rsvp" class="nav-item nav-link d-none d-lg-block">RSVP</a>
             </div>
             <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
                 <h1 class="font-secondary text-white mb-n2" style="font-weight: 400;">Nata <span class="text-primary">&</span> Jairo</h1>
             </a>
             <div class="navbar-nav mr-auto py-0">
-                <a href="#dresscode" class="nav-item nav-link">Dress Code</a>
-                <a href="#hotel" class="nav-item nav-link">Hotel</a>
-                <a href="#QandA" class="nav-item nav-link">Q&A</a>
+                <a href="#dresscode" class="nav-item nav-link hide_show_navbar d-lg-none">Dress Code</a>
+                <a href="#dresscode" class="nav-item nav-link d-none d-lg-block">Dress Code</a>
+
+                <a href="#hotel" class="nav-item nav-link hide_show_navbar d-lg-none">Hotel</a>
+                <a href="#hotel" class="nav-item nav-link d-none d-lg-block">Hotel</a>
+
+                <a href="#QandA" class="nav-item nav-link hide_show_navbar d-lg-none">Q&A</a>
+                <a href="#QandA" class="nav-item nav-link d-none d-lg-block">Q&A</a>
+
                 <div class="d-inline-block border-top border-matri-dark-amarillo mt-2 pt-2">
                     <a href="https://natayjairo.co/" class="nav-item nav-link d-lg-none">Ver en Español</a>
                 </div>
@@ -593,13 +607,11 @@
     </div>
     <!-- Footer End -->
 
-
     <!-- Scroll to Bottom -->
     <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-outline-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
-
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -656,7 +668,7 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            var navbarLinks = document.querySelectorAll('.navbar-nav .nav-link');
+            var navbarLinks = document.querySelectorAll('.hide_show_navbar');
             var navbarToggle = document.querySelector('.navbar-toggler');
             
             navbarLinks.forEach(function(navLink) {
