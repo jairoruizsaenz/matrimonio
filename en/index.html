@@ -59,6 +59,7 @@
             </a>
             <div class="navbar-nav mr-auto py-0">
                 <a href="#dresscode" class="nav-item nav-link">Dress Code</a>
+                <a href="#hotel" class="nav-item nav-link">Hotel</a>
                 <a href="#QandA" class="nav-item nav-link">Q&A</a>
                 <div class="d-inline-block border-top border-matri-dark-amarillo mt-2 pt-2">
                     <a href="https://natayjairo.co/" class="nav-item nav-link d-lg-none">Ver en Español</a>
@@ -262,6 +263,27 @@
         </div>
     </div>
     <!-- Dresscode End -->
+
+    <!-- Hotel Start -->
+    <div class="container-fluid section" id="hotel">
+        <div class="container py-5">
+            <div class="section-title position-relative text-center">
+                <h5 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">TRavel</h5>
+                <h1 class="font-secondary display-4">Hotel</h1>
+                <img class="img-fluid mb-4" src="../img/logo.png" alt="" width="35" style="border-radius: 50%;">
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 mb-4 text-center">
+                    <h4 class="">cité hotel</h4>
+                    <p class="mb-0">Reservation under: Matrimonio Natalia Cano y Jairo Ruiz</p>
+                    <p class=""><strong>You can make reservations by following this <a target="_blank" href="https://www.citehotel.com/book/dates-of-stay?RatePlanId=8531282">Link</a></strong></p>
+                    <p class="mb-0">or send a reservation request to the email <a href="mailto:reservas@citehotel.com">reservas@citehotel.com</a> and/or by phone or WhatsApp at <a href="tel:+573228100228">+57 322-810-0228</a></p>
+                    <p class="">for more information, you can visit their website <a target="_blank" href="https://www.citehotel.com/">https://www.citehotel.com/</a></p>
+                </div>
+            </div>            
+        </div>
+    </div>    
+    <!-- Hotel End -->
 
     <!-- Q&A Start -->
     <div class="container-fluid section" id="QandA">
@@ -591,8 +613,8 @@
     <!-- Template Javascript -->
     <script src="../js/main.js"></script>
 
-    <script src="../js/jquery.min.js"></script>
-    <script src="../js/popper.js"></script>
+    <!-- <script src="../js/jquery.min.js"></script> -->
+    <!-- <script src="../js/popper.js"></script> -->
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/owl.carousel.min.js"></script>
     <script src="../js/main_carousel.js"></script>
@@ -628,6 +650,20 @@
                     submitButton.disabled = false;
                     submitButton.textContent = "Send";
                 });                
+            });
+        });
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var navbarLinks = document.querySelectorAll('.navbar-nav .nav-link');
+            var navbarToggle = document.querySelector('.navbar-toggler');
+            
+            navbarLinks.forEach(function(navLink) {
+                navLink.addEventListener('click', function() {
+                    // Trigger click event on navbar toggle button
+                    navbarToggle.click();
+                });
             });
         });
     </script>
