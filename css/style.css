@@ -65,12 +65,48 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
+  font-size: 1.0rem;
   font-weight: 400;
   line-height: 1.5;
   color: #818491;
   text-align: left;
   background-color: #FFFFFF;
+}
+
+p {
+  font-size: 1.05rem;
+}
+
+.card {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  max-width: 400px;
+}
+.card-header {
+  background-color: #6c757d;
+  color: white;
+  min-height: 66px;
+}
+.card-header img {
+  max-width: 100px;
+  /* margin-bottom: 15px; */
+  filter: grayscale(100%); /* Aplicar filtro gris */
+}
+.btn-custom {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+}
+.btn-custom:hover {
+  background-color: #5a6268;
+}
+
+.QA_question {
+  font-weight: bold;
+  font-size: 1.05rem;
 }
 
 .border-matri-dark-amarillo {
@@ -280,7 +316,7 @@ sup {
   top: -.5em;
 }
 
-a {
+a, .amarillo {
   color: var(--matri-amarillo);
   text-decoration: none;
   background-color: transparent;
