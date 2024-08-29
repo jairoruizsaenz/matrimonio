@@ -62,8 +62,8 @@
                 <a href="#where" class="nav-item nav-link hide_show_navbar d-lg-none">Where</a>
                 <a href="#where" class="nav-item nav-link d-none d-lg-block">Where</a>
 
-                <a href="#rsvp" class="nav-item nav-link hide_show_navbar d-lg-none">RSVP</a>
-                <a href="#rsvp" class="nav-item nav-link d-none d-lg-block">RSVP</a>
+                <a href="#qr_photos" class="nav-item nav-link hide_show_navbar d-lg-none">Photos</a>
+                <a href="#qr_photos" class="nav-item nav-link d-none d-lg-block">Photos</a>
             
                 <a href="#dresscode" class="nav-item nav-link hide_show_navbar d-lg-none">Dress code</a>
                 <a href="#dresscode" class="nav-item nav-link d-none d-lg-block">Dress code</a>
@@ -174,79 +174,31 @@
     </section>
     <!-- Event End -->
 
-    <!-- RSVP Start -->
-    <!-- https://github.com/levinunnink/html-form-to-google-sheet -->
-    <section class="container-fluid section" id="rsvp">
+    <!-- photos Start -->
+    <section class="container-fluid section" id="qr_photos">
         <div class="container py-5">
             <div class="section-title position-relative text-center">
-                <h5 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Please RSVP before July 15th</h5>
-                <h1 class="font-secondary display-4">Join us in our celebration</h1>                
-                <img class="img-fluid mb-4" src="../img/logo.png" alt="" width="35" style="border-radius: 50%;">
+                <h5 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Fotos</h5>
+                <h1 class="font-secondary display-4">Comparte el amor</h1>
+                <img class="img-fluid mb-4" src="img/logo.png" alt="" width="35" style="border-radius: 50%;">
             </div>
             <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="text-center">                        
-                        <form id="rsvp_form" method="POST" action="https://script.google.com/macros/s/AKfycbygN9tcThyynLOnCcazGrBVNOec6Sg15TinzVBOAtWD2b_dnlC_rn6-tsobohdzhMr_RA/exec">
-                            <div class="form-row">
-                                <div class="form-group col-sm-6">
-                                    <input type="text" class="form-control bg-secondary border-0 py-4 px-3" name="First Name" placeholder="First Name" required="required"/>
-                                </div>
-                                <div class="form-group col-sm-6">
-                                    <input type="text" class="form-control bg-secondary border-0 py-4 px-3" name="Last Name" placeholder="Last Name" required="required"/>
-                                </div>
-                            </div>
-                            <div class="form-row">
-                                <!-- <div class="form-group col-sm-6">
-                                    <select class="form-control bg-secondary border-0" style="height: 52px;">
-                                        <option>Number of Guest</option>
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                    </select>
-                                </div> -->
-                                <div class="form-group col-sm-12">
-                                    <input type="email" class="form-control bg-secondary border-0 py-4 px-3" name="Email" placeholder="Email" required="required"/>
-                                </div>
-                                <div class="col-sm-6 pb-3 my-auto text-left">
-                                    <span>Attendance confirmation to the wedding:</span>
-                                </div>
-                                <div class="form-group col-sm-6">
-                                    <select class="form-control bg-secondary border-0" style="height: 52px;" name="Response">
-                                        <!-- <option>I'm Attending</option> -->
-                                        <option>I will attend with invited partner</option>
-                                        <option>I will attend without my partner</option>
-                                        <option>I am unable to attend</option>
-                                    </select>
-                                </div>
-                                <div class="col-sm-6 pb-3 my-auto text-left">
-                                    <span>Attendance confirmation to the cocktail:</span>
-                                </div>
-                                <div class="form-group col-sm-6">
-                                    <select class="form-control bg-secondary border-0" style="height: 52px;" name="Response coctel">
-                                        <!-- <option>I'm Attending</option> -->
-                                        <option>I will attend with invited partner</option>
-                                        <option>I will attend without my partner</option>
-                                        <option>I am unable to attend</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control bg-secondary border-0 py-2 px-3" rows="5" placeholder="Message" name="Message"></textarea>
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control bg-secondary border-0 py-2 px-3" rows="5" placeholder="Do you have any dietary restrictions?" name="Food restriction"></textarea>
-                            </div>
-                            <div>
-                                <button class="btn btn-primary font-weight-bold py-3 px-5" type="submit">Send</button>
-                            </div>
-                        </form>
+                <div class="col-12 mb-4 text-center">
+                    <div style="font-size: 1.10rem; font-weight: 600;">
+                        <p class="mb-0 text-primary">Help us remember this special celebration by sharing the photos or videos you take</p>
+                        <p class=""><strong>Access this <a target="_blank" href="https://fotos.natayjairo.co/">link</a> or scan the QR code </strong></p>
                     </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center">
+                    <!-- <h5 class="font-weight-normal text-muted mb-3 pb-3">Clita ipsum aliquyam dolor diam dolores elitr nonumy. Rebum sea vero ipsum eirmod tempor kasd. Diam amet lorem erat eos sit lorem elitr justo</h5>                     -->
+                    <img class="img-fluid img_border" src="img/qr_fotos.jpeg" width="450"  alt="">
                 </div>
             </div>
         </div>
     </section>
-    <!-- RSVP End -->
+    <!-- photos End -->   
 
     <!-- Dresscode Start -->
     <section class="container-fluid section" id="dresscode">
